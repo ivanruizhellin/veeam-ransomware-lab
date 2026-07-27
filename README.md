@@ -78,9 +78,7 @@ El laboratorio reproduce un entorno empresarial simplificado:
 6. Se restauran los datos desde Veeam.
 7. Se verifica la integridad de la información recuperada.
 
-<p align="center">
-  <img src="images/Veeam.png" width="900">
-</p>
+<img src="images/Veeam.png" width="900">
 
 ---
 
