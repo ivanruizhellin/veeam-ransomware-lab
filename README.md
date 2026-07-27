@@ -110,7 +110,7 @@ El script realiza las siguientes acciones:
 - Genera los archivos cifrados.
 - Crea una nota de rescate.
 
-<img src="images/ransomware.png" width="%100">
+<img src="images/ransomware.png" width="100%">
 
 Posteriormente se ejecuta el proceso completo de recuperación mediante Veeam Backup & Replication para verificar que los datos pueden restaurarse correctamente.
 
