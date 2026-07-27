@@ -107,9 +107,7 @@ Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso s
 
 ---
 
-# 💾 Estrategia de copias de seguridad
-
-La solución implementada utiliza **Veeam Backup & Replication Community Edition** para proteger la información almacenada en el servidor Windows.
+# 💾 Copias de seguridad
 
 Las copias de seguridad se ejecutan de forma automática y se almacenan en el **repositorio Linux**, configurado con inmutabilidad. Esta arquitectura permite mantener las copias protegidas frente a modificaciones o eliminaciones, incluso si el servidor principal resulta comprometido.
 
