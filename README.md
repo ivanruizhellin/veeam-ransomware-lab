@@ -62,6 +62,8 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 | Ubuntu Server | Repositorio inmutable de copias de seguridad |
 | Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
 
+![VMware Workstation](images/VMware.png)
+
 ---
 
 # ⚙️ Funcionamiento del laboratorio
@@ -76,6 +78,8 @@ El laboratorio reproduce un entorno empresarial simplificado:
 6. Se restauran los datos desde Veeam.
 7. Se verifica la integridad de la información recuperada.
 
+![Consola de Veeam](images/Veeam.png)
+
 ---
 
 # 🔒 Protección del repositorio
@@ -89,6 +93,8 @@ El repositorio Linux implementa las principales medidas de protección recomenda
 - Usuario dedicado sin privilegios administrativos.
 
 Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso si un atacante compromete el servidor principal.
+
+![Linux Hardened Repository](images/linux_hardened.png)
 
 ---
 
@@ -106,6 +112,8 @@ El script realiza las siguientes acciones:
 
 Posteriormente se ejecuta el proceso completo de recuperación mediante Veeam Backup & Replication para verificar que los datos pueden restaurarse correctamente.
 
+![Simulación del ransomware](images/ransomware.png)
+
 ---
 
 # 📊 Resultados
@@ -116,6 +124,8 @@ Durante las pruebas se verificó correctamente:
 - ✅ Funcionamiento del repositorio inmutable.
 - ✅ Recuperación satisfactoria de la infraestructura.
 - ✅ Cumplimiento de los objetivos de recuperación.
+
+![Restauración de datos](images/restauración.png)
 
 | Métrica | Objetivo | Resultado |
 |---------|---------:|---------:|
@@ -152,12 +162,7 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 
 # 📷 Capturas
 
-- ![VMware Workstation](images/VMware.png)
-- ![Consola de Veeam](images/Veeam.png)
-- ![Linux Hardened Repository](images/linux_hardened.png)
-- ![Trabajos de backup](images/backups.png)
-- ![Simulación del ransomware](images/ransomware.png)
-- ![Restauración de datos](images/restauración.png)
+![Trabajos de backup](images/backups.png)
 
 ---
 
