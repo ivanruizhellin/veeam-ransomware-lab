@@ -1,6 +1,6 @@
 # 🛡️ Sistema de Copias de Seguridad frente a Ataques Ransomware
 
-> Diseño e implementación de un laboratorio virtualizado para proteger una infraestructura empresarial frente a ataques ransomware mediante una estrategia de copias de seguridad basada en **Veeam Backup & Replication** y un **repositorio Linux Hardened Repository** con almacenamiento inmutable.
+> Diseño e implementación de un laboratorio virtualizado para proteger una infraestructura empresarial frente a ataques ransomware mediante una estrategia de copias de seguridad basada en **Veeam Backup & Replication** y un **repositorio Linux endurecido (Hardened Repository)** con almacenamiento inmutable.
 
 ---
 
