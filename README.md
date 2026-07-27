@@ -172,7 +172,7 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 
 # 🎥 Demostración
 
-▶️ **[Ver vídeo de la demostración]([https://www.youtube.com/watch?v=tKG0CFNP9UI])**
+▶️ **[Ver vídeo de la demostración](https://www.youtube.com/watch?v=tKG0CFNP9UI)**
 
 ---
 
