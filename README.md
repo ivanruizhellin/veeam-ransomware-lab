@@ -12,6 +12,7 @@
 - 🖥️ Infraestructura
 - ⚙️ Funcionamiento del laboratorio
 - 🔒 Protección del repositorio
+- 💾 Copias de seguridad
 - 💣 Simulación del ataque
 - 📊 Resultados
 - ⚠️ Limitaciones
@@ -107,6 +108,21 @@ Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso s
 
 ---
 
+# 💾 Copias de seguridad
+
+La estrategia de protección se basa en **Veeam Backup & Replication Community Edition**, configurado para realizar copias automáticas de la carpeta compartida alojada en el servidor Windows.
+
+Las copias de seguridad se almacenan en un **Linux Hardened Repository** sobre Ubuntu Server, donde permanecen protegidas mediante inmutabilidad durante un periodo de siete días.
+
+Esta configuración permite garantizar la disponibilidad de los datos incluso ante un ataque ransomware que comprometa el servidor principal.
+
+<details>
+<summary>Ver captura</summary>
+<img src="images/backups.png" width="100%">
+</details>
+
+---
+
 # 💣 Simulación del ataque
 
 Para evitar utilizar malware real, se desarrolló un script propio que reproduce el comportamiento básico de un ransomware.
@@ -172,12 +188,6 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 - MFA para el acceso administrativo.
 - Monitorización y alertas.
 - Restauración de máquinas virtuales completas.
-
----
-
-# 📷 Capturas
-
-![Trabajos de backup](images/backups.png)
 
 ---
 
