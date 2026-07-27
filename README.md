@@ -107,13 +107,11 @@ Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso s
 
 ---
 
-# 💾 Copias de seguridad
+# 💾 Estrategia de copias de seguridad
 
-La estrategia de protección se basa en **Veeam Backup & Replication Community Edition**, configurado para realizar copias automáticas de la carpeta compartida alojada en el servidor Windows.
+La solución implementada utiliza **Veeam Backup & Replication Community Edition** para proteger la información almacenada en el servidor Windows.
 
-Las copias de seguridad se almacenan en un **Linux Hardened Repository** sobre Ubuntu Server, donde permanecen protegidas mediante inmutabilidad durante un periodo de siete días.
-
-Esta configuración permite garantizar la disponibilidad de los datos incluso ante un ataque ransomware que comprometa el servidor principal.
+Las copias de seguridad se ejecutan de forma automática y se almacenan en el **repositorio Linux**, configurado con inmutabilidad. Esta arquitectura permite mantener las copias protegidas frente a modificaciones o eliminaciones, incluso si el servidor principal resulta comprometido.
 
 <details>
 <summary>Ver captura</summary>
