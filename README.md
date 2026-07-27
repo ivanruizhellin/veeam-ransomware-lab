@@ -7,20 +7,20 @@
 ## 📑 Índice
 
 - [📖 Descripción](#-descripción)
-- 🎯 Objetivos
-- 🏗️ Arquitectura
-- 🖥️ Infraestructura
-- ⚙️ Funcionamiento del laboratorio
-- 🔒 Protección del repositorio
-- 💾 Copias de seguridad
-- 💣 Simulación del ataque
-- 📊 Resultados
-- ⚠️ Limitaciones
-- 🚀 Mejoras futuras
-- 📷 Capturas
-- 📄 Documentación
-- 🎥 Demostración
-- 👨‍💻 Autor
+- [🎯 Objetivos](#-objetivos)
+- [🏗️ Arquitectura](#️-arquitectura)
+- [🖥️ Infraestructura](#️-infraestructura)
+- [⚙️ Funcionamiento del laboratorio](#️-funcionamiento-del-laboratorio)
+- [🔒 Protección del repositorio](#-protección-del-repositorio)
+- [💾 Copias de seguridad](#-copias-de-seguridad)
+- [💣 Simulación del ataque](#-simulación-del-ataque)
+- [📊 Resultados](#-resultados)
+- [⚠️ Limitaciones](#️-limitaciones)
+- [🚀 Mejoras futuras](#-mejoras-futuras)
+- [📷 Capturas](#-capturas)
+- [📄 Documentación](#-documentación)
+- [🎥 Demostración](#-demostración)
+- [👨‍💻 Autor](#-autor)
 
 ---
 
