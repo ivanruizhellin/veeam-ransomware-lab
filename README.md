@@ -202,7 +202,7 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 
 ---
 
-# Autor
+# 👨‍💻 Autor
 
 **Iván Ruiz García**
 
