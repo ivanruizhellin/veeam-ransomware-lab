@@ -152,15 +152,12 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 
 # 📷 Capturas
 
-> *(Aquí se añadirán capturas del laboratorio.)*
-
-- Arquitectura.
-- VMware Workstation.
-- Consola de Veeam.
-- Linux Hardened Repository.
-- Trabajos de backup.
-- Simulación del ransomware.
-- Restauración de datos.
+![VMware Workstation](images/VMware.png)
+![Consola de Veeam](images/Veeam.png)
+![Linux Hardened Repository](images/linux_hardened.png)
+![Trabajos de backup](images/backups.png)
+![Simulación del ransomware](images/ransomware.png)
+![Restauración de datos](images/restauración.png)
 
 ---
 
