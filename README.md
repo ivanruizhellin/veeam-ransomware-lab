@@ -62,7 +62,10 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 | Ubuntu Server | Repositorio inmutable de copias de seguridad |
 | Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
 
-<img src="images/VMware.png" width="100%">
+<details>
+<summary>Ver capturas</summary>
+  <img src="images/VMware.png" width="100%">
+</details>
 
 ---
 
