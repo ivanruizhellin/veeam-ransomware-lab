@@ -50,7 +50,7 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 # 🏗️ Arquitectura
 
-<img src="images/arquitectura.png" width="%100">
+<img src="images/arquitectura.png" width="100%">
 
 ---
 
@@ -62,7 +62,7 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 | Ubuntu Server | Repositorio inmutable de copias de seguridad |
 | Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
 
-<img src="images/VMware.png" width="%100">
+<img src="images/VMware.png" width="100%">
 
 ---
 
@@ -78,7 +78,7 @@ El laboratorio reproduce un entorno empresarial simplificado:
 6. Se restauran los datos desde Veeam.
 7. Se verifica la integridad de la información recuperada.
 
-<img src="images/Veeam.png" width="%100">
+<img src="images/Veeam.png" width="100%">
 
 ---
 
@@ -94,7 +94,7 @@ El repositorio Linux implementa las principales medidas de protección recomenda
 
 Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso si un atacante compromete el servidor principal.
 
-<img src="images/linux_hardened.png" width="%100">
+<img src="images/linux_hardened.png" width="100%">
 
 ---
 
@@ -114,7 +114,7 @@ El script realiza las siguientes acciones:
 
 Posteriormente se ejecuta el proceso completo de recuperación mediante Veeam Backup & Replication para verificar que los datos pueden restaurarse correctamente.
 
-<img src="images/restauración.png" width="%100">
+<img src="images/restauración.png" width="100%">
 
 ---
 
