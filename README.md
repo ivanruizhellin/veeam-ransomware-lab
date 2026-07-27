@@ -19,7 +19,7 @@
 - [🚀 Mejoras futuras](#-mejoras-futuras)
 - [📄 Documentación](#-documentación)
 - [🎥 Demostración](#-demostración)
-- [👨‍💻 Autor](#-autor)
+- [👨‍💻 Autor](#%E2%80%8D-autor)
 
 ---
 
