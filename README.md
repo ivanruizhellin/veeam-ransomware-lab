@@ -6,7 +6,7 @@
 
 ## 📑 Índice
 
-- 📖 Descripción
+- - [📖 Descripción](#-descripción)
 - 🎯 Objetivos
 - 🏗️ Arquitectura
 - 🖥️ Infraestructura
@@ -59,9 +59,9 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 | Equipo | Función |
 |--------|---------|
-| Windows Server | Servidor de almacenamiento de datos con el software de backup (Veeam Backup & Replication) |
-| Ubuntu Server | Repositorio inmutable de copias de seguridad |
-| Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
+| Windows Server | Aloja la carpeta compartida utilizada por los usuarios, ejecuta Veeam Backup & Replication y conecta la red principal con la red de backup |
+| Ubuntu Server | Repositorio Linux Hardened Repository donde se almacenan las copias de seguridad inmutables |
+| Cliente Windows | Simula el equipo de trabajo de un usuario y es el objetivo del ataque ransomware |
 
 <details>
 <summary>Ver captura</summary>
