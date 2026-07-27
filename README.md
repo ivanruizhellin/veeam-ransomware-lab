@@ -10,7 +10,6 @@
 - 🎯 Objetivos
 - 🏗️ Arquitectura
 - 🖥️ Infraestructura
-- ⚙️ Tecnologías utilizadas
 - ⚙️ Funcionamiento del laboratorio
 - 🔒 Protección del repositorio
 - 💣 Simulación del ataque
@@ -51,32 +50,7 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 # 🏗️ Arquitectura
 
-> *(Aquí irá el diagrama definitivo de la infraestructura.)*
-
-```
-                    Red Principal
-┌──────────────────────────────────────────┐
-│                                          │
-│  Cliente Windows                         │
-│         │                                │
-│         │ SMB                            │
-│         ▼                                │
-│  Windows Server                          │
-│  • Carpeta compartida                    │
-│  • Veeam Backup & Replication            │
-└──────────────┬───────────────────────────┘
-               │
-               │ Red Backup
-               ▼
-┌──────────────────────────────────────────┐
-│ Linux Hardened Repository                │
-│                                          │
-│ • XFS                                    │
-│ • Fast Clone                             │
-│ • Inmutabilidad                          │
-│ • Repositorio de backups                 │
-└──────────────────────────────────────────┘
-```
+![Arquitectura del laboratorio](images/arquitectura.png)
 
 ---
 
@@ -87,34 +61,6 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 | Windows Server | Servidor de almacenamiento de datos con el software de backup (Veeam Backup & Replication) |
 | Ubuntu Server | Repositorio inmutable de copias de seguridad |
 | Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
-
----
-
-# ⚙️ Tecnologías utilizadas
-
-## Sistemas Operativos
-
-- Windows Server
-- Ubuntu Server
-- Windows 10
-
-## Virtualización
-
-- VMware Workstation
-
-## Copias de seguridad
-
-- Veeam Backup & Replication Community Edition
-
-## Sistemas de archivos
-
-- XFS
-
-## Seguridad
-
-- Linux Hardened Repository
-- Inmutabilidad
-- Segmentación de red
 
 ---
 
