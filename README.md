@@ -50,7 +50,7 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 # 🏗️ Arquitectura
 
-![Arquitectura del laboratorio](images/arquitectura.png)
+<img src="images/arquitectura.png" width="%100">
 
 ---
 
@@ -62,7 +62,7 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 | Ubuntu Server | Repositorio inmutable de copias de seguridad |
 | Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
 
-![VMware Workstation](images/VMware.png)
+<img src="images/VMware.png" width="%100">
 
 ---
 
@@ -94,7 +94,7 @@ El repositorio Linux implementa las principales medidas de protección recomenda
 
 Gracias a estas medidas, las copias de seguridad permanecen protegidas incluso si un atacante compromete el servidor principal.
 
-![Linux Hardened Repository](images/linux_hardened.png)
+<img src="images/linux_hardened.png" width="%100">
 
 ---
 
@@ -110,9 +110,11 @@ El script realiza las siguientes acciones:
 - Genera los archivos cifrados.
 - Crea una nota de rescate.
 
+<img src="images/ransomware.png" width="%100">
+
 Posteriormente se ejecuta el proceso completo de recuperación mediante Veeam Backup & Replication para verificar que los datos pueden restaurarse correctamente.
 
-![Simulación del ransomware](images/ransomware.png)
+<img src="images/restauración.png" width="%100">
 
 ---
 
@@ -124,8 +126,6 @@ Durante las pruebas se verificó correctamente:
 - ✅ Funcionamiento del repositorio inmutable.
 - ✅ Recuperación satisfactoria de la infraestructura.
 - ✅ Cumplimiento de los objetivos de recuperación.
-
-![Restauración de datos](images/restauración.png)
 
 | Métrica | Objetivo | Resultado |
 |---------|---------:|---------:|
