@@ -6,7 +6,7 @@
 
 ## 📑 Índice
 
-- - [📖 Descripción](#-descripción)
+- [📖 Descripción](#-descripción)
 - 🎯 Objetivos
 - 🏗️ Arquitectura
 - 🖥️ Infraestructura
