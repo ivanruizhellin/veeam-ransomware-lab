@@ -151,17 +151,17 @@ Posteriormente se ejecuta el proceso completo de recuperación mediante Veeam Ba
 
 # 📊 Resultados
 
-Durante las pruebas se verificó correctamente:
+| Objetivo | Resultado |
+|---------|---------:|
+| Recuperación de datos | ✅ Correcta |
+| Funcionamiento del repositorio | ✅ Correcto |
+| Cumplimiento RTO | ✅ 8 minutos |
+| Cumplimiento RPO | ✅ 0 horas |
 
-- ✅ Restauración completa de los datos tras el ataque.
-- ✅ Funcionamiento del repositorio inmutable.
-- ✅ Recuperación satisfactoria de la infraestructura.
-- ✅ Cumplimiento de los objetivos de recuperación.
-
-| Métrica | Objetivo | Resultado |
-|---------|---------:|---------:|
-| RTO | 30 minutos | ~8 minutos |
-| RPO | 24 horas | 0 horas |
+<details>
+<summary>Ver captura</summary>
+<img src="images/RTO.png" width="100%">
+</details>
 
 ---
 
