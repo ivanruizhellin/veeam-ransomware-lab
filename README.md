@@ -84,9 +84,9 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 | Equipo | Función |
 |--------|---------|
-| Windows Server | Controlador de dominio, carpeta compartida y servidor Veeam Backup & Replication |
-| Ubuntu Server | Linux Hardened Repository |
-| Cliente Windows | Simulación del puesto de trabajo de un usuario |
+| Windows Server | Servidor de almacenamiento de datos con el software de backup (Veeam Backup & Replication) |
+| Ubuntu Server | Repositorio inmutable de copias de seguridad |
+| Cliente Windows | Equipo de un empleado donde se simula el ataque ransomware |
 
 ---
 
@@ -106,26 +106,15 @@ Todo el laboratorio se ha desplegado sobre un entorno virtualizado con el fin de
 
 - Veeam Backup & Replication Community Edition
 
-## Redes
+## Sistemas de archivos
 
-- SMB
-- TCP/IP
+- XFS
 
 ## Seguridad
 
 - Linux Hardened Repository
 - Inmutabilidad
-- XFS
-- Fast Clone
-
-## Automatización
-
-- PowerShell
-
-## Simulación del ransomware
-
-- Python
-- AES
+- Segmentación de red
 
 ---
 
