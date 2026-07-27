@@ -17,7 +17,6 @@
 - [📊 Resultados](#-resultados)
 - [⚠️ Limitaciones](#️-limitaciones)
 - [🚀 Mejoras futuras](#-mejoras-futuras)
-- [📷 Capturas](#-capturas)
 - [📄 Documentación](#-documentación)
 - [🎥 Demostración](#-demostración)
 - [👨‍💻 Autor](#-autor)
