@@ -19,7 +19,7 @@
 - [🚀 Mejoras futuras](#-mejoras-futuras)
 - [📄 Documentación](#-documentación)
 - [🎥 Demostración](#-demostración)
-- [👨‍💻 Autor](#Autor)
+- [👨‍💻 Autor](#autor)
 
 ---
 
@@ -202,7 +202,7 @@ En un entorno empresarial real la solución podría ampliarse para proteger:
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **Iván Ruiz García**
 
